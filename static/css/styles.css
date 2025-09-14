@@ -1,0 +1,13 @@
+/* Styles */
+@import "common/reset_styles.css";
+@import "common/common_styles.css";
+
+/* Fonts */
+@import "common/fonts.css";
+
+/* Base.html */
+@import "common/navbar.css";
+@import "common/footer.css";
+
+/* Other */
+@import "common/home_page.css";
