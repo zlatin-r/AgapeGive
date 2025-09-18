@@ -14,14 +14,13 @@ header {
 
 main {
     flex: 1;
-    padding: 20px;
 }
 
 footer {
     padding: 15px 20px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
+/* .container {
+    width: 90%;
+    margin: 0 auto;
+} */
