@@ -4,11 +4,11 @@
     align-items: center;
     position: absolute;
     z-index: 1;
-    padding: 20px;
+    padding: 0 25px;
     margin: 20px;
     width: calc(100% - 40px);
-    background: rgba(255, 255, 255, 0.550);
-    border-radius: 10px;
+    /* background: rgba(255, 255, 255, 0.377);
+    border-radius: 10px; */
 }
 
 .logo {
@@ -23,11 +23,12 @@
 .logo p {
     font-size: 32px;
     font-weight: bold;
-    color: #eb5a1d;
+    color: #fa6008;
 }
 
 .navbar-menu ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    font-size: 20px;
 }
