@@ -2,6 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    margin: 20px;
+    width: calc(100% - 40px);
+    background: rgba(255, 255, 255, 0.550);
+    border-radius: 10px;
 }
 
 .logo {
