@@ -7,19 +7,26 @@
 .hero-section,
 .hero-section img {
     width: 100%;
+    /* height: 1000px; */
 }
 
 .hero-section img {
     position: relative;
 }
 
-.hero-text {
+.hero-text-container {
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    top: 370px;
+    left: 150px;
+    color: white;
 }
 
-.hero-text p {
+.hero-text-container .title {
     font-size: 88px;
+}
+
+.hero-text-container .sub-title {
+    font-size: 26px;
 }

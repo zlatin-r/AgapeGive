@@ -1,4 +1,6 @@
+@import "common/fonts.css";
 @import "common/reset_styles.css";
 @import "common/common_styles.css";
+@import "common/footer.css";
 @import "common/navbar.css";
 @import "common/home_page.css";
