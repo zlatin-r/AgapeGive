@@ -22,22 +22,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #fa6008;
-}
-
-.navbar-menu {
-    background: rgba(255, 255, 255, 0.884);
-    border-radius: 10px; 
-    padding: 15px 35px;
-    color: #fa6008;
-
-}
-
-.navbar-menu ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
+    margin-left: 10px;
 }
 
 .profile-menu {
@@ -49,13 +34,11 @@
     color: #fa6008;
 }
 
-.navbar-menu ul li a,
 .profile-menu a {
     transition: transform 0.2s ease, color 0.2s ease;
     display: inline-block;
 }
 
-.navbar-menu ul li a:hover,
 .profile-menu a:hover {
     transform: translateY(-3px);
     color: #ff7b38;
