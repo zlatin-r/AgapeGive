@@ -7,8 +7,6 @@
     padding: 0 25px;
     margin: 20px;
     width: calc(100% - 40px);
-    /* background: rgba(255, 255, 255, 0.377);
-    border-radius: 10px; */
 }
 
 .logo {
@@ -21,14 +19,41 @@
 }
 
 .logo p {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     color: #fa6008;
 }
 
+.navbar-menu {
+    background: rgba(255, 255, 255, 0.884);
+    border-radius: 10px; 
+    padding: 15px 35px;
+    color: #fa6008;
+
+}
+
 .navbar-menu ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-menu ul li a {
+    color: #333; /* default color */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-menu ul li a:hover {
+    color: #fa6008; /* highlight on hover */
+}
+
+.profile-menu {
+    background: rgba(255, 255, 255, 0.884);
+    border-radius: 10px; 
+    padding: 15px 35px;
+    font-size: 20px;
+    color: #fa6008;
+    font-weight: bold;
 }
