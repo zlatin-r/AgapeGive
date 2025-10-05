@@ -11,3 +11,13 @@ body {
 main {
     flex: 1;
 }
+
+/* Buttons */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 12rem;
+    border-radius: 10px;
+}
