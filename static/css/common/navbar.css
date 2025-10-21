@@ -22,31 +22,7 @@
     font-size: 36px;
     font-weight: bold;
     color: #fa6008;
-}
-
-.navbar-menu {
-    background: rgba(255, 255, 255, 0.884);
-    border-radius: 10px; 
-    padding: 15px 35px;
-    color: #fa6008;
-
-}
-
-.navbar-menu ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.navbar-menu ul li a {
-    color: #333; /* default color */
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.navbar-menu ul li a:hover {
-    color: #fa6008; /* highlight on hover */
+    margin-left: 10px;
 }
 
 .profile-menu {
@@ -54,6 +30,16 @@
     border-radius: 10px; 
     padding: 15px 35px;
     font-size: 20px;
-    color: #fa6008;
     font-weight: bold;
+    color: #fa6008;
+}
+
+.profile-menu a {
+    transition: transform 0.2s ease, color 0.2s ease;
+    display: inline-block;
+}
+
+.profile-menu a:hover {
+    transform: translateY(-3px);
+    color: #ff7b38;
 }
